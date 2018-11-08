@@ -51,23 +51,13 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
   
-  
-#### Beskrivningsniva  
-* Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
-Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
-I mallar är Miniminivå förvalt. Ändra vid behov.  
-  Välj från lista.    
-  ```Exempel: Biblioteksnivå```
-  
 #### Fingerprint     
 * Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026)  
-  Rekommenderas inte men möjligheten finns här att ange Fingerprint.
-  Klicka på papperskorgen till höger om ISBN.
-  Välj Fingerprint i rullgardinsmenyn Välj typ.
-  Klicka på plustecknet till höger om Fingerprint.
-  Sök efter och välj Värde i sidorutan.
+  Rekommenderas inte men möjligheten finns här att ange Fingerprint.<br/>
+  Klicka på papperskorgen till höger om ISBN.<br/>
+  Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
+  Klicka på plustecknet till höger om Fingerprint.<br/>
+  Sök efter och välj Värde i sidorutan.<br/>
   Skriv in uppgiften.
   
 #### Translitterering
