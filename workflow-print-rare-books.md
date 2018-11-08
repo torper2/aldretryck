@@ -62,8 +62,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   Sök efter och välj Källa i sidorutan.<br/>
   Skriv in uppgiften i Värde.<br/>
   Klicka på plustecknet till höger om Källa.<br/>
-  Välj Termlista i menyn Skapa lokal entitet.<br/>
-  Klicka på plustecknet till höger om termlista.<br/>
+  Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
+  Klicka på plustecknet till höger om Termlista.<br/>
   Sök efter och välj Kod i sidorutan.<br/>
   Skriv in koden.  
 
