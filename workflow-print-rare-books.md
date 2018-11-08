@@ -52,7 +52,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
   
 #### Fingerprint     
-* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026)  
+* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)  
   Rekommenderas inte men möjligheten finns här att ange Fingerprint. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21.<br/><br/>
   Klicka på det stora plustecknet i högermarginalen.<br/>
   Sök efter och välj Identifikator i sidorutan.<br/>
@@ -75,97 +75,23 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Titel  
 
-##### Huvudtitel    
+##### Hela referenstiteln i Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften.    
- ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+Till referenstiteln räknas all text före impressum, inklusive upphovs- och upplageuppgifter. Hela referenstiteln bör anges i Huvudtitel om syntaxen bryts eller om man skulle behöva ändra ordningsföjden på titel-, upphovs- och upplageuppgifterna.
+<br/>```Exempel:```
+  * ```Monografi: Tankar, om husbönders och tjänstefolks skyldigheter emot hwarannan inbördes, i anledning af Johan Christopher Schinmejers twänne predikningar, på tyska, öfwer desza ämnen, wälment meddelade af Olof Rönigk. Andra uplagan.```
+  * ```Flerbandsverk: Abregé chronologique de l'histoire de France, par le sr. de Mezeray ... Premiere partie, tome III.```
 
-##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+##### Referenstiteln i Huvudtitel, Övrig titelinformation och upphovsuppgift
+Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)
+```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)
+```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```
+* Upphovsuppgift (responsibilityStatement = 245 ‡c)
+```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
-  
-  För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
-
-##### Varianttitel   
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
-  Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Hierarchy in organizations```   
-* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
-  Skriv in uppgiften.  
-  ```Exempel: Titeln felstavad, korrekt titel:```   
-  
-##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
-
-##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
- Skriv in uppgiften under huvudtitel.      
- ```Exempel: Bergens väktare```  
-* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
-Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: Djingis Khan – historiens störste erövrare```
-
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
-  Skriv in uppgiften.
-  <br/>```Exempel:```
-  * ```Typanmärkning (246 ‡i): Skyddsomslag:```
-  * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
-  * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
-    
-##### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Har del).  
-Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
-Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
-Skriv in uppgiften under Delbeteckning.  
-```Exempel: 1```   
-
-##### Deltitel  
-* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till egenskaper under: Titel, välj Har del).   Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
-Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
-Skriv in uppgiften under Deltitel.  
-```Exempel: Träd och växter som resurs```  
-För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
-
-#### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
-(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
-
-  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
-Skriv in uppgiften under Huvudtitel.  
-  
-##### Parallelltitel  
-Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
-Välj först Har titel, välj sedan typ Parallelltitel.      
-Skriv in uppgiften under Huvudtitel.     
-  ```Exempel: The Great Northern War explained```  
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
-Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-  ```Exempel: Charles XII and the ideological address```  
-  
-#### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det.   
-  Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+```Exempel: af E. M Arndt.```
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
