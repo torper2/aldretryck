@@ -23,7 +23,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
 |[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Fingerprint](#fingerprint) | [Genre](#genre) |
 | [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)|[Klassifikation](#klassifikation) |
 |[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Ämne](#amne) |
 | [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
@@ -49,7 +49,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om Katalogiseringsregler: rda.
+  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
+  
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
@@ -60,12 +61,14 @@ I mallar är Miniminivå förvalt. Ändra vid behov.
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
-#### Poststatus     
-* Poststatus (recordStatus = 000/05)  
-  Uppdateras automatiskt. Ändra inte.
-  <br/>```Exempel:```
-  * ```Ny post```
-  * ```Rättad eller reviderad post```
+#### Fingerprint     
+* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026)  
+  Rekommenderas inte men möjligheten finns här att ange Fingerprint.
+  Klicka på papperskorgen till höger om ISBN.
+  Välj Fingerprint i rullgardinsmenyn Välj typ.
+  Klicka på plustecknet till höger om Fingerprint.
+  Sök efter och välj Värde i sidorutan.
+  Skriv in uppgiften.
   
 #### Translitterering
 * Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
