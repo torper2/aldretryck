@@ -49,23 +49,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
-  
-#### Fingerprint     
-* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)  
-  Rekommenderas inte men möjligheten finns här att ange Fingerprint. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21.<br/><br/>
-  Klicka på det stora plustecknet i högermarginalen.<br/>
-  Sök efter och välj Identifikator i sidorutan.<br/>
-  Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
-  Klicka på plustecknet till höger om Fingerprint.<br/>
-  Sök efter och välj Värde i sidorutan.<br/>
-  Sök efter och välj Källa i sidorutan.<br/>
-  Skriv in uppgiften i Värde.<br/>
-  Klicka på plustecknet till höger om Källa.<br/>
-  Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
-  Klicka på plustecknet till höger om Termlista.<br/>
-  Sök efter och välj Kod i sidorutan.<br/>
-  Skriv in koden.  
+  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.  
 
 ### Instans
 #### Utgivningssatt
@@ -84,14 +68,35 @@ Till referenstiteln räknas all text före impressum, inklusive upphovs- och upp
 
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)<br/>
 ```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```
-* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)<br/>
 ```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)
-```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
+* Upphovsuppgift (responsibilityStatement = 245 ‡c)<br/>
 ```Exempel: af E. M Arndt.```
+
+#### Identifikator
+Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
+* Identifikator/Värde (identifiedBy/value = 024 ‡a)
+```Exempel: 840111g31```
+* Identifikator/Typanmärkning (identifiedBy/typeNote = 024 ‡2)
+```Exempel: SB17```<br/>
+Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. 
+* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)  
+<br/><br/>
+  Klicka på papperskorgen till höger om ISBN.<br/>
+  Klicka på det stora plustecknet i högermarginalen.<br/>
+  Sök efter och välj Identifikator i sidorutan.<br/>
+  Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
+  Klicka på plustecknet till höger om Fingerprint.<br/>
+  Sök efter och välj Värde i sidorutan.<br/>
+  Sök efter och välj Källa i sidorutan.<br/>
+  Skriv in uppgiften i Värde.<br/>
+  Klicka på plustecknet till höger om Källa.<br/>
+  Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
+  Klicka på plustecknet till höger om Termlista.<br/>
+  Sök efter och välj Kod i sidorutan.<br/>
+  Skriv in koden.
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
