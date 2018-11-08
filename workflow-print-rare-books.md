@@ -53,30 +53,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Fingerprint     
 * Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026)  
-  Rekommenderas inte men möjligheten finns här att ange Fingerprint.<br/>
+  Rekommenderas inte men möjligheten finns här att ange Fingerprint.<br/><br/>
   Klicka på papperskorgen till höger om ISBN.<br/>
   Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
   Klicka på plustecknet till höger om Fingerprint.<br/>
   Sök efter och välj Värde i sidorutan.<br/>
-  Skriv in uppgiften.
-  
-#### Translitterering
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
-   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
- 
-#### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
-
-  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
-```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
- 
-Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
- * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla  
- 
+  Skriv in uppgiften. 
 
 ### Instans
 #### Utgivningssatt
