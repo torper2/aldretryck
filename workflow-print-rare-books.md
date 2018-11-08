@@ -98,18 +98,32 @@ Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange d
   Sök efter och välj Kod i sidorutan.<br/>
   Skriv in koden.
 
-#### Identifikator 
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+#### Identifikator
+Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
+* Identifikator/Värde (identifiedBy/value = 024 ‡a)  
+  ```Exempel: 840111g31```
+* Identifikator/Typanmärkning (identifiedBy/typeNote = 024 ‡2)  
+  ```Exempel: SB17```<br/>
+Fingerprint rekommenderas inte men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21.  
+* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)  
+<br/><br/>
+  Klicka på papperskorgen till höger om ISBN.<br/>
+  Klicka på det stora plustecknet i högermarginalen.<br/>
+  Sök efter och välj Identifikator i sidorutan.<br/>
+  Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
+  Klicka på plustecknet till höger om Fingerprint.<br/>
+  Sök efter och välj Värde i sidorutan.<br/>
+  Sök efter och välj Källa i sidorutan.<br/>
+  Skriv in uppgiften i Värde.<br/>
+  Klicka på plustecknet till höger om Källa.<br/>
+  Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
+  Klicka på plustecknet till höger om Termlista.<br/>
+  Sök efter och välj Kod i sidorutan.<br/>
+  Skriv in koden.
 
-För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+   
+
+ 
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
