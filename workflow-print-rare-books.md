@@ -80,7 +80,8 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 * Identifikator/Värde (identifiedBy/value = 024 ‡a)<br/>
 ```Exempel: 840111g31```
 * Identifikator/Typanmärkning (identifiedBy/typeNote = 024 ‡2)<br/>
-```Exempel: SB17```<br/>
+```Exempel: SB17```
+
 Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. 
 * Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)<br/>
   Klicka på papperskorgen till höger om ISBN.<br/>
