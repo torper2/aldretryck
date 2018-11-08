@@ -97,58 +97,16 @@ Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange d
   Klicka på plustecknet till höger om Termlista.<br/>
   Sök efter och välj Kod i sidorutan.<br/>
   Skriv in koden.
-
-#### Identifikator
-Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
-* Identifikator/Värde (identifiedBy/value = 024 ‡a)  
-  ```Exempel: 840111g31```
-* Identifikator/Typanmärkning (identifiedBy/typeNote = 024 ‡2)  
-  ```Exempel: SB17```
-<br/>
-Fingerprint rekommenderas inte men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21.  
-* Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026 ‡e och ‡2)<br/>
-  Klicka på papperskorgen till höger om ISBN.<br/>
-  Klicka på det stora plustecknet i högermarginalen.<br/>
-  Sök efter och välj Identifikator i sidorutan.<br/>
-  Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
-  Klicka på plustecknet till höger om Fingerprint.<br/>
-  Sök efter och välj Värde i sidorutan.<br/>
-  Sök efter och välj Källa i sidorutan.<br/>
-  Skriv in uppgiften i Värde.<br/>
-  Klicka på plustecknet till höger om Källa.<br/>
-  Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
-  Klicka på plustecknet till höger om Termlista.<br/>
-  Sök efter och välj Kod i sidorutan.<br/>
-  Skriv in koden.
-
-   
-
- 
-  
-#### Indirekt identifierad av  
-Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
-  Skriv in upplagebeteckning här.  
-  ```Exempel: Första upplagan```  
+  Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.  
+  ```Exempel: [Ny udgave]```  
   
 #### Utgivning  
 * Utgivning (publication)  
-  Välj typ från lista. För monografier, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
-  Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.
+  I RDA är det obligatoriskt att ange utgivningsort, utgivarnamn och utgivningsår. Tryck- eller copyrightår räknas exempelvis inte som utgivningsår. Dessa uppgifter måste därför klamras enligt RDA.
+Nutida uppdelning av olika funktioner (utgivare, tryckare, distributör och försäljare) stämmer inte för handpresstiden. Tills vidare räknas därför tryckuppgifter som utgivningsuppgifter och klamras inte.
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
