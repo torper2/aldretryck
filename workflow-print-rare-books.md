@@ -53,12 +53,19 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Fingerprint     
 * Identifikator/Fingerprint/Värde (identifiedBy/fingerprint/value = 026)  
-  Rekommenderas inte men möjligheten finns här att ange Fingerprint.<br/><br/>
-  Klicka på papperskorgen till höger om ISBN.<br/>
+  Rekommenderas inte men möjligheten finns här att ange Fingerprint. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21.<br/><br/>
+  Klicka på det stora plustecknet i högermarginalen.<br/>
+  Sök efter och välj Identifikator i sidorutan.<br/>
   Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
   Klicka på plustecknet till höger om Fingerprint.<br/>
   Sök efter och välj Värde i sidorutan.<br/>
-  Skriv in uppgiften. 
+  Sök efter och välj Källa i sidorutan.<br/>
+  Skriv in uppgiften i Värde.<br/>
+  Klicka på plustecknet till höger om Källa.<br/>
+  Välj Termlista i menyn Skapa lokal entitet.<br/>
+  Klicka på plustecknet till höger om termlista.<br/>
+  Sök efter och välj Kod i sidorutan.<br/>
+  Skriv in koden.  
 
 ### Instans
 #### Utgivningssatt
