@@ -210,34 +210,23 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   <br/> Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
   * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början```
 
-#### Innehallsanmarkning  
-* Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.     
-  ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
-  
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
-För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.  
-Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
-
 #### Citering i referatorgan    
-  Egenskapen Citering i referatorgan (510) är inte tillgänglig för närvarande. En uppgift som inte använts så mycket. Alterantiv lösning är att kopiera en post som har följande egenskaper med.
+  Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 ‡a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
 
-#### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
-Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
-```Exempel: För årskurs 1```  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
+#### Namn på orter och territorier
+  Här anges tryckorter.  
 
-#### Annat bararformat
-* Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-* Annat bärarformat/Typanmärkning (776 ‡i)  
-  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
-* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+##### Land  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (marc:hasAddedEntryHierarchicalPlaceName/marc:countryOrLargerEntity = 752 ‡a)  
+  Skriv in uppgiften.  
+   ```Exempel: Sverige```   
+
+##### Stad  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (marc:hasAddedEntryHierarchicalPlaceName/marc:city = 752 ‡d)  
+  Skriv in uppgiften.  
+  ```Exempel: Stockholm```  
   
 ### Verk   
 
