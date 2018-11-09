@@ -144,66 +144,43 @@ Skriv in uppgiften under Benämning.
     Här anges tryckår som måste anges med fler än fyra tecken.  
   <br/>```Exempel:```
     * ```Tryckår saknas i trycket: [17uu?]```
-    * ```Sannolikt tryckår: [1738?]```
+    * ```Sannolikt tryckår: [1738?]```<br/>
     
     * ```Startår: 1732```
     * ```Slutår: 1745```
     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
    
 #### Tillverkning 
-* Tillverkning (manufacture)  
-
-##### Tillverkningsplats (Tillverkningsort) 
-* Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
-  ```Exempel: Falun```  
-##### Tillverkningsnamn  
-* Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
-  Skriv in uppgiften.   
-  ```Exempel: Scandbook```   
-##### Tillverkningstid   
-* Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
-  Skriv in uppgiften. Klamra vid behov.
-  <br/>```Exempel:```
-  * ```2017```
-  * ```[2017]```
-  
-#### Copyrightar   
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
-  Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  ```Exempel: ©2017``` 
+* Tillverkning (manufacture)
+Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har tryckuppgifter i normaliserad form lagt i 260 ‡e och ‡f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter och tryckare i Har biuppslag - Namn på orter och territorier (752 ‡a och ‡d).  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 319 sidor```  
+  Enligt RDA ska man inte förkorta sidor, planschblad etc. Vi förkortar så länge vi katalogiserar enligt ISBD.  
+  <br/>```Exempel:```
+  * ```x, 692 s. (s. 687-692 opag., 687-688 annonser)```
+  * ```5 vol. ([4], 412; [4] 448; 392; 408; 368 (s. 368 opag.) s., frontespis```    
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
-  Skriv in uppgiften.  
-  ```Exempel: illustrationer```
+  ```Exempel: 20 ill. (träsnitt)```
 
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: 24 cm``` 
+  ```Exempel: 8:o(12/6)``` 
   
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
-Skriv in uppgiften.  
-  ```Exempel: 10 mönsterark```  
-
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel: n (= omedierad)```
+  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel: nc (= volym)```  
-
+  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
+  
+#### Numrering i seriell resurs   
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.
+  ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
+  
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
