@@ -107,42 +107,36 @@ Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange d
 * Utgivning (publication)  
   I RDA är det obligatoriskt att ange utgivningsort, utgivarnamn och utgivningsår. Tryck- eller copyrightår räknas exempelvis inte som utgivningsår. Dessa uppgifter måste därför klamras enligt RDA.
 Nutida uppdelning av olika funktioner (utgivare, tryckare, distributör och försäljare) stämmer inte för handpresstiden. Tills vidare räknas därför tryckuppgifter som utgivningsuppgifter och klamras inte.
+Impressum anges enbart i Plats om det finns någon tryck- eller utgivningsuppgift i trycket.
+Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- eller utgivningsuppgifter i trycket.
  
 ##### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning.  
-  ```Exempel: [Göteborg]```  
-  
-##### Utgivningsland  
-* Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)``` 
+* Plats/Plats/Benämning (place/label = 264 -/1 ‡a)
+Skriv in uppgiften i Benämning.   
+  <br/>```Exempel:```
+  * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
+  * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```    
+  * ```Tryckuppgifter saknas: [Jönköping?]``` 
   
 ##### Utgivarnamn
-* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
+* Agent/Agent/Benämning (agent/label = 264 -/1 ‡b)  
   Skriv in uppgiften under Benämning.  
-  ```Exempel: NoNa```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
-  Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
+  <br/>```Exempel:```
+  * ```Tryckuppgifter saknas: [Curt?]```
+  * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
 ##### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
-  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
-  ```Exempel: 2017```  
-  * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
-  Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År.  
-  Skriv in uppgiften.
+  * År (date = 008/07-10, 264 -/1 ‡c)  
+  År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. 
   <br/>```Exempel:```
-    * ```[2017]```
-    * ```[mellan 1863 och 1866?]```
+    * ```"1652" i trycket: 1652```
+ 
+ För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.    
+    
+  * Datum (date = 264 -/1 ‡c)  
+  <br/>```Exempel:```
+    * ```Tryckår saknas i trycket: [17uu?]```
+    * ```Sannolikt tryckår: [1738?]```  
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
