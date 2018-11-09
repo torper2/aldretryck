@@ -216,7 +216,9 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 * Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
 
 #### Namn på orter och territorier
-  Här anges tryckorter.  
+  Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i CERL Thesaurus.
+  <br/>Orter som har bytt namn och landtillhörighet<br/>
+  I Voyager lade man till fält 751 eftersom man i fält 752 skulle ange nutida ortnamn och landtillhörighet. Det finns ingen motsvarighet till 751 i nya Libris. Det borde däremot vara tillåtet att ange två biuppslag på orter men man kan i dagsläget bara ange en ort.
 
 ##### Land  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (marc:hasAddedEntryHierarchicalPlaceName/marc:countryOrLargerEntity = 752 ‡a)  
@@ -226,7 +228,7 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 ##### Stad  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (marc:hasAddedEntryHierarchicalPlaceName/marc:city = 752 ‡d)  
   Skriv in uppgiften.  
-  ```Exempel: Stockholm```  
+  ```Exempel: Stockholm```   
   
 ### Verk   
 
