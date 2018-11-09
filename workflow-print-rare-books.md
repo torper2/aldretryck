@@ -112,7 +112,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (place/label = 264 -/1 ‡a)
-Skriv in uppgiften i Benämning.   
+  Skriv in uppgiften under Benämning.   
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
   * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```    
@@ -131,9 +131,10 @@ Skriv in uppgiften i Benämning.
   <br/>```Exempel:```
     * ```"1652" i trycket: 1652```
  
- För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.    
+ Om tryckår saknas eller är ofullständigt använder man även Datum.     
     
-  * Datum (date = 264 -/1 ‡c)  
+  * Datum (date = 264 -/1 ‡c)
+    Här anges tryckår som måste anges med fler än fyra tecken.  
   <br/>```Exempel:```
     * ```Tryckår saknas i trycket: [17uu?]```
     * ```Sannolikt tryckår: [1738?]```  
