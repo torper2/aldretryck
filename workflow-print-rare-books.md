@@ -110,26 +110,33 @@ Nutida uppdelning av olika funktioner (utgivare, tryckare, distributör och för
 Impressum anges enbart i Plats om det finns någon tryck- eller utgivningsuppgift i trycket.
 Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- eller utgivningsuppgifter i trycket.
  
-##### Utgivningsplats
+##### Utgivningsplats (tryckort)
 * Plats/Plats/Benämning (place/label = 264 -/1 ‡a)
-  Skriv in uppgiften under Benämning.   
+Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
   * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```    
   * ```Tryckuppgifter saknas: [Jönköping?]``` 
   
-##### Utgivarnamn
+##### Utgivarnamn (tryckare etc.)
 * Agent/Agent/Benämning (agent/label = 264 -/1 ‡b)  
   Skriv in uppgiften under Benämning.  
   <br/>```Exempel:```
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
-##### År och datum 
+##### År och datum (tryckår) 
   * År (date = 008/07-10, 264 -/1 ‡c)  
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. 
   <br/>```Exempel:```
     * ```"1652" i trycket: 1652```
+    
+* Start- och slutår (flerbandsverk)  
+  Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
+ <br/>```Exempel:```
+  * ```Startår: 1732```
+  * ```Slutår: 1745```
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.     
     
@@ -137,16 +144,11 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
     Här anges tryckår som måste anges med fler än fyra tecken.  
   <br/>```Exempel:```
     * ```Tryckår saknas i trycket: [17uu?]```
-    * ```Sannolikt tryckår: [1738?]```  
-  
-* Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
- <br/>```Exempel:```
-  * ```Startår: 1999```
-  * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
-
- Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+    * ```Sannolikt tryckår: [1738?]```
+    
+    * ```Startår: 1732```
+    * ```Slutår: 1745```
+    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
    
 #### Tillverkning 
 * Tillverkning (manufacture)  
