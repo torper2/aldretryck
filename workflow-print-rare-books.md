@@ -251,9 +251,9 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 * Innehållstyp/Innehållstyp (336 ‡b)   
   En uppgift som började användas vid övergången till RDA 2017. Den anges inte vid äldretryckskatalogisering enligt ISBD men ta inte bort fältet.
   
-### Bestånd
+### Bestand
 
-#### Ägarhistorik
+#### Agarhistorik
 * Ägarhistorik (561 ‡a)   
   Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter.
   * Klicka på plustecknet i högermarginalen.
@@ -263,7 +263,7 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   ```Christian Hammer (exlibris) (ex. B)```<br/>
   ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
-#### Igenkänningstecken och identifiering av exemplar
+#### Igenkanningstecken och identifiering av exemplar
 * Igenkänningstecken (562 ‡a)
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
