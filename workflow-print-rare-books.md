@@ -68,7 +68,7 @@ Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgif
 #### Identifikator
 Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 * Identifikator/Värde (024 ‡a)<br/>
-```Exempel: 840111g31```
+```Exempel: 840111g31```<br/><br/>
 * Identifikator/Typanmärkning (024 ‡2)<br/>
 ```Exempel: SB17```
 
@@ -113,8 +113,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
 ##### Ar och datum (tryckar) 
 * År (008/07-10, 264 -/1 ‡c)  
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
-  <br/>```Exempel:```
-  * ```"1652" i trycket: 1652```  
+  <br/>```Exempel: 1652```    
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
