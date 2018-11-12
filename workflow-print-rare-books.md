@@ -191,7 +191,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   * ```Fraktur```
   * ```Boktryckarmärke på sista sidan```
   <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
-  * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början```
+  * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 #### Citering i referatorgan    
   Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
