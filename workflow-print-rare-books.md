@@ -254,8 +254,8 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 ### Bestånd
 
 #### Ägarhistorik
-* Ägarhistorik (561 ‡a) 
-Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
+* Ägarhistorik (561 ‡a)   
+  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
@@ -263,17 +263,33 @@ Det går för närvarande inte att skapa fler rader för ytterligare proveniensu
   * ```Christian Hammer (exlibris) (ex. B)```
   * ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
   
-#### Igenkänningstecken och identifiering av exemplar (562)
+#### Igenkänningstecken och identifiering av exemplar
 * Igenkänningstecken (562 ‡a)
-* Klicka på plustecknet i högermarginalen.
-* Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
-* Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
-* Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
-* Sök efter och välj Igenkänningstecken i sidorutan.
-* Skriv in uppgiften.
-
-
-
-  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.  
+  * Klicka på plustecknet i högermarginalen.
+  * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
+  * Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
+  * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
+  * Sök efter och välj Igenkänningstecken i sidorutan.
+  * Skriv in uppgiften. 
+  ```Exempel: Med handkolorerade illustrationer```
+  
+* Identifiering av exemplar (562 Cb)
+  * Klicka på plustecknet till höger om i Lokal anmärkning: Identifiering …
+  * Sök efter och välj Identifiering av exemplar i sidorutan.  
+  * Skriv in uppgiften. 
+  ```Exempel: Ex. B```
+  
+#### Bokband
+* Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 ‡a)   
+  Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband. Man kan upprepa Benämning men i MARC21 hamnar då anmärkningarna i varsitt delfält.  
+  * Klicka på plustecknet i högermarginalen.
+  * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
+  * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
+  * Klicka på > intill Lokal anmärkning Bokband.
+  * Skriv in uppgiften i Benämning. 
+  ```Exempel: Med handkolorerade illustrationer```  
+  
+  
+   
    
  
