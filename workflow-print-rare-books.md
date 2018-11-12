@@ -199,20 +199,20 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 * Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
 
 #### Namn på orter och territorier
-  Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search)
-  
-  Orter som har bytt namn och landtillhörighet<br/>
-  I Voyager lade man till fält 751 eftersom man i fält 752 skulle ange nutida ortnamn och landtillhörighet. Det finns ingen motsvarighet till 751 i nya Libris. Det borde däremot vara tillåtet att ange två biuppslag på orter men man kan i dagsläget bara ange en ort.
+  Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search).  
 
 ##### Land  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 ‡a)  
-  Skriv in uppgiften.  
+  Klicka på det stora plustecknet i högermarginalen.plustecknet Skriv in uppgiften.  
    ```Exempel: Sverige```   
 
 ##### Stad  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 ‡d)  
   Skriv in uppgiften.  
-  ```Exempel: Stockholm```   
+  ```Exempel: Stockholm```
+  
+##### Orter som har bytt namn och landtillhörighet    
+I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange nutida ortnamn och landtillhörighet. Det finns ingen motsvarighet till 751 i nya Libris. Det borde däremot vara tillåtet att ange två biuppslag på orter men man kan i dagsläget bara ange en ort.
   
 ### Verk   
 
