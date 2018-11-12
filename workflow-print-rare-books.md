@@ -23,7 +23,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |   
 | | [Fingerprint](#fingerprint) | [Innehållstyp](#innehallstyp) | [Bokband](#bokband) | 
-| | [Upplageuppgift](#upplageuppgift | | |
+| | [Upplageuppgift](#upplageuppgift) | | |
 | | [Utgivning](#utgivning) | | |   
 | | [Tillverkning](#tillverkning) | | | 
 | | [Omfång](#omfang) | | |
