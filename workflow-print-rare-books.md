@@ -73,9 +73,9 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 ```Exempel: SB17```
 
 ##### Fingerprint
-Fingerprint rekommenderas inte men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. 
+Fingerprint rekommenderas inte men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. Det går för närvarande inte att länka till godkänd källkod. 
 * Identifikator/Fingerprint/Värde (026 ‡e och ‡2)<br/>
-  * Klicka på papperskorgen till höger om ISBN.<br/>
+  * Klicka på papperskorgen till höger om ISBN.
   * Klicka på det stora plustecknet i högermarginalen.<br/>
   * Sök efter och välj Identifikator i sidorutan.<br/>
   * Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
