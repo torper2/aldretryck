@@ -115,7 +115,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
   <br/>```Exempel:```
   * ```"1652" i trycket: 1652```
-<br/>    
+    
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
  <br/>```Exempel:```
@@ -125,15 +125,14 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.     
     
-  * Datum (264 -/1 ‡c)
-    Här anges tryckår som måste anges med fler än fyra tecken.  
+ * Datum (264 -/1 ‡c)  
+ Här anges tryckår som måste anges med fler än fyra tecken.  
   <br/>```Exempel:```
-    * ```Tryckår saknas i trycket: [17uu?]```
-    * ```Sannolikt tryckår: [1738?]```<br/>
-    
-    * ```Startår: 1732```
-    * ```Slutår: 1745```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  * ```Tryckår saknas i trycket: [17uu?]```
+  * ```Sannolikt tryckår: [1738?]```
+  * ```Startår: 1732```
+  * ```Slutår: 1745```
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
    
 #### Tillverkning 
 * Tillverkning
