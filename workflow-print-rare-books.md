@@ -203,12 +203,17 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 
 ##### Land  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 ‡a)  
-  Klicka på det stora plustecknet i högermarginalen.plustecknet Skriv in uppgiften.  
+  * Klicka på det stora plustecknet i högermarginalen.
+  * Sök efter och välj Har biuppslag - Namn på orter och territorier i sidorutan.
+  * Klicka på plustecknet intill rubriken.
+  * Sök efter och välj Land / Överordnat territorium i sidorutan.
+  * Skriv in uppgiften.  
    ```Exempel: Sverige```   
 
 ##### Stad  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 ‡d)  
-  Skriv in uppgiften.  
+  * Sök efter och välj Stad, kommun i sidorutan. 
+  * Skriv in uppgiften.  
   ```Exempel: Stockholm```
   
 ##### Orter som har bytt namn och landtillhörighet    
