@@ -286,10 +286,5 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
   * Klicka på > intill Lokal anmärkning: Bokband.
-  * Skriv in uppgiften i Benämning.
-  ```Exempel: Med handkolorerade illustrationer```  
-  
-  
-   
-   
- 
+  * Skriv in uppgiften i Benämning. 
+  ```Exempel: Med handkolorerade illustratione```
