@@ -59,9 +59,9 @@ Till referenstiteln räknas all text före impressum, inklusive upphovs- och upp
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
 * Har titel/Titel/Huvudtitel (245 ‡a)<br/>
-```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```  
+```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```<br/>  
 * Har titel/Titel/Övrig titelinformation (245 ‡b)<br/>
-```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```  
+```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```<br/>  
 * Upphovsuppgift (245 ‡c)<br/>
 ```Exempel: af E. M Arndt.```
 
