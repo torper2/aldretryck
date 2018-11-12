@@ -222,13 +222,6 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
 ### Verk   
 
 #### Medverkan och funktion  
-* Medverkan och funktion/Medverkan/Funktion (700 ‡4)  
-  Vanliga funktionskoder för äldre tryck. Kan också förekomma som Primär medverkan:
-  * pra (preses, tidigare ths)
-  * rsp (respondent, tidigare dis)
-  * dte (dedicerat till)
-  * fmo (tidigare ägare) = anges oftast i Bestånd
-  
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 ‡a)  
   Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
