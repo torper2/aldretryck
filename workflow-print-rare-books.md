@@ -268,7 +268,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 ‡a)   
-  i de flesta fall räcker det att ange en bokbandsuppgift. Vid behov kan man upprepa Benämning. I MARC21 hamnar då anmärkningarna i varsitt delfält. Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband.       
+  I de flesta fall räcker det att ange en bokbandsuppgift. Vid behov kan man upprepa Benämning. I MARC21 hamnar då anmärkningarna i varsitt delfält. Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband.       
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
@@ -276,7 +276,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Skriv in uppgiften i Benämning. 
   <br/>```Exempel: Rött sammetsband```
   
-  Klicka på plustecknet intill Benämning för fler rader.
+  Klicka på plustecknet intill Benämning för fler anmärkningar.
   
   
   
