@@ -242,17 +242,36 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 
 ##### SAB-klassifikation  
 * SAB-klassifikation  
-  SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Vi fortsätter ange förkortade SAB-koder för dessa kategorier. Ta då bort Klassifikation/Termlista/Termlista/Version: 8.  
+  SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
+  * SOT = Svenskt offentligt tryck -1833
+  * COL = Collijn 1600-talet
+  * SB17 = Svensk bibliografi 1700-1829  
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 ‡b)   
-  Länka till entitet.  
-  ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
+  En uppgift som började användas vid övergången till RDA 2017. Den anges inte vid äldretryckskatalogisering enligt ISBD men ta inte bort fältet.
   
-#### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling (plustecknet vid Instans av Verk: Text - Lägg till egenskaper under: Text, välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan till höger).  
-Skriv in anmärkningen under Benämning.    
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
+### Bestånd
+* Ägarhistorik (561 ‡a)   
+  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
+  * Klicka på plustecknet i högermarginalen.
+  * Sök efter och välj Ägarhistorik i sidorutan.
+  * Skriv in uppgiften.
+  <br/>```Exempel:```
+  * ```Christian Hammer (exlibris) (ex. B)```
+  * ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
+  
+* Igenkänningstecken och identifiering av exemplar (562)
+* Igenkänningstecken
+* Klicka på plustecknet i högermarginalen.
+* Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
+* Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
+* Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
+* Sök efter och välj Igenkänningstecken i sidorutan.
+* Skriv in uppgiften.
 
+
+
+  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.  
+   
+ 
