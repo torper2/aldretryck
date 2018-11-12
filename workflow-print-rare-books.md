@@ -74,7 +74,7 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 
 ##### Fingerprint
 Fingerprint rekommenderas inte men möjligheten finns att ange det här. Det går för närvarande inte att länka till godkänd källkod. 
-* Identifikator/Fingerprint/Värde (026 ‡e och ‡2)
+* Identifikator/Fingerprint/Värde (026)
   * Klicka på papperskorgen till höger om ISBN.
   * Klicka på det stora plustecknet i högermarginalen.
   * Sök efter och välj Identifikator i sidorutan.
