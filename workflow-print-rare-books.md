@@ -259,9 +259,9 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
-  <br/>```Exempel:```
-  * ```Christian Hammer (exlibris) (ex. B)```
-  * ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
+  <br/>```Exempel:```<br/>
+  ```Christian Hammer (exlibris) (ex. B)```<br/>
+  ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
   
 #### Igenkänningstecken och identifiering av exemplar
 * Igenkänningstecken (562 ‡a)
