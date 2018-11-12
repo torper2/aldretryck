@@ -125,17 +125,17 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.
   
- * Datum (264 -/1 ‡c)
+ * Datum (264 -/1 ‡c)  
    Här anges tryckår som måste anges med fler än fyra tecken.
   <br/>```Exempel:```
   * ```Tryckår saknas i trycket: [17--?]```
-  * ```Sannolikt tryckår: [1738?]```
-  * ```Flerbandsverk: [1746?]-1752```<br/>  
+  * ```Sannolikt tryckår: [1738?]```<br/>
+  * ```Flerbandsverk: [1746?]-1752```  
   Glöm inte att ändra Typ av utgivningsdatum till: Flera årtal (monografisk resurs) 
    
 #### Tillverkning 
-* Tillverkning
-Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har tryckuppgifter i normaliserad form lagt i 260 ‡e och ‡f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter och tryckare i Har biuppslag - Namn på orter och territorier (752 ‡a och ‡d).  
+* Tillverkning (264 -/3)  
+Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 ‡e och ‡f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter i Har biuppslag - Namn på orter och territorier (752 ‡a och ‡d) och tryckare i Medverkan och funktion/Agent/Organisation (710 ‡a).  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 ‡a)  
