@@ -96,8 +96,8 @@ Impressum anges enbart i Plats om det finns någon tryck- eller utgivningsuppgif
 Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- eller utgivningsuppgifter i trycket.
  
 ##### Utgivningsplats (tryckort)
-* Plats/Plats/Benämning (264 -/1 ‡a)
-Skriv in uppgiften under Benämning.
+* Plats/Plats/Benämning (264 -/1 ‡a)  
+  Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
   * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```    
