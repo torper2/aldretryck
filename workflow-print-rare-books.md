@@ -223,7 +223,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 ‡a)  
   Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
-##### Klassifikation  
+#### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   * SOT = Svenskt offentligt tryck -1833
