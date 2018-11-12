@@ -59,9 +59,9 @@ Till referenstiteln räknas all text före impressum, inklusive upphovs- och upp
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
 * Har titel/Titel/Huvudtitel (245 ‡a)<br/>
-```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```
+```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```  
 * Har titel/Titel/Övrig titelinformation (245 ‡b)<br/>
-```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```
+```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```  
 * Upphovsuppgift (245 ‡c)<br/>
 ```Exempel: af E. M Arndt.```
 
@@ -123,7 +123,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-  Om tryckår saknas eller är ofullständigt använder man även Datum.
+  <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
   
 * Datum (264 -/1 ‡c)    
   Här anges tryckår som måste anges med fler än fyra tecken.
