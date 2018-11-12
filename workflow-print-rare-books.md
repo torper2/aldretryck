@@ -260,8 +260,8 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
   <br/>```Exempel:```
-  ```Christian Hammer (exlibris) (ex. B)```
-  ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
+  * ```Christian Hammer (exlibris) (ex. B)```
+  * ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
   
 #### Igenkänningstecken och identifiering av exemplar
 * Igenkänningstecken (562 ‡a)
