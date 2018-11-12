@@ -166,7 +166,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
-  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag. För fler exempel, se hjälptexten Tryckt monografi - Bok.  
+  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.  
 
 ##### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (490 ‡a)  
@@ -180,8 +180,8 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 
 ##### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift och eventuell numrering inom serie ska anges.
-  Skriv in uppgiften.
+  Ange indikator 0 om endast serieuppgift och eventuell numrering inom serie ska anges.  
+  Skriv in uppgiften.  
   ```Exempel: 0```   
  
 #### Anmarkning
