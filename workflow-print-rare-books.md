@@ -287,6 +287,6 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
   * Klicka på > intill Lokal anmärkning: Bokband.
   * Skriv in uppgiften i Benämning. 
-  ```Exempel: Rött sammetsband```
+  ```Exempel: Rött sammetsban d```
   * Skriv in uppgiften i Benämning. 
   ```Exempel: Rött sammetsband```
