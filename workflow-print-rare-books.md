@@ -105,14 +105,14 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
 ##### Utgivarnamn (tryckare etc.)
 * Agent/Agent/Benämning (264 -/1 ‡b)  
-  Skriv in uppgiften under Benämning.  
+  Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
 ##### Ar och datum (tryckår) 
   * År (008/07-10, 264 -/1 ‡c)  
-  År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. 
+  År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
   <br/>```Exempel:```
     * ```"1652" i trycket: 1652```
     
