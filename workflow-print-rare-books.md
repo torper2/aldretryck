@@ -137,7 +137,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 ‡a)  
-  Enligt RDA ska man inte förkorta sidor, planschblad etc. Vi förkortar så länge vi katalogiserar enligt ISBD.  
+  Enligt RDA ska man inte förkorta sidor, planschblad etc. Vi förkortar så länge vi katalogiserar enligt ISBD.
   <br/>```Exempel:```
   * ```x, 692 s. (s. 687-692 opag., 687-688 annonser)```
   * ```5 vol. ([4], 412; [4] 448; 392; 408; 368 (s. 368 opag.) s., frontespis```    
