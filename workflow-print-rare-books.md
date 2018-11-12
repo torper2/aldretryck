@@ -125,14 +125,14 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.     
     
- * Datum (264 -/1 ‡c)  
- Här anges tryckår som måste anges med fler än fyra tecken.  
+* Datum (264 -/1 ‡c)
+Här anges tryckår som måste anges med fler än fyra tecken.  
   <br/>```Exempel:```
-  * ```Tryckår saknas i trycket: [17uu?]```
-  * ```Sannolikt tryckår: [1738?]```
-  * ```Startår: 1732```
-  * ```Slutår: 1745```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  ```Tryckår saknas i trycket: [17uu?]```
+  ```Sannolikt tryckår: [1738?]```
+  ```Startår: 1732```
+  ```Slutår: 1745```
+  ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
    
 #### Tillverkning 
 * Tillverkning
