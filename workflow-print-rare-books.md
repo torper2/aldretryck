@@ -125,7 +125,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.
   
- * Datum (264 -/1 ‡c)  
+ * Datum (264 -/1 ‡c)
    Här anges tryckår som måste anges med fler än fyra tecken.
   <br/>```Exempel:```
   * ```Tryckår saknas i trycket: [17--?]```
