@@ -18,7 +18,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk)
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
@@ -121,7 +121,7 @@ Skriv in uppgiften under Benämning.
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
-##### År och datum (tryckår) 
+##### Ar och datum (tryckår) 
   * År (008/07-10, 264 -/1 ‡c)  
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. 
   <br/>```Exempel:```
@@ -292,4 +292,6 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   <br/>```Exempel: Rött sammetsband```
   
   Klicka på plustecknet intill Benämning för fler rader.
+  
+  
   
