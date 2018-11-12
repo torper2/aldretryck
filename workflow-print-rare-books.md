@@ -76,17 +76,17 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 Fingerprint rekommenderas inte men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. Det går för närvarande inte att länka till godkänd källkod. 
 * Identifikator/Fingerprint/Värde (026 ‡e och ‡2)<br/>
   * Klicka på papperskorgen till höger om ISBN.
-  * Klicka på det stora plustecknet i högermarginalen.<br/>
-  * Sök efter och välj Identifikator i sidorutan.<br/>
-  * Välj Fingerprint i rullgardinsmenyn Välj typ.<br/>
-  * Klicka på plustecknet till höger om Fingerprint.<br/>
-  * Sök efter och välj Värde i sidorutan.<br/>
-  * Sök efter och välj Källa i sidorutan.<br/>
-  * Skriv in uppgiften i Värde.<br/>
-  * Klicka på plustecknet till höger om Källa.<br/>
-  * Välj Termlista i sidorutan, Skapa lokal entitet.<br/>
-  * Klicka på plustecknet till höger om Termlista.<br/>
-  * Sök efter och välj Kod i sidorutan.<br/>
+  * Klicka på det stora plustecknet i högermarginalen.
+  * Sök efter och välj Identifikator i sidorutan.
+  * Välj Fingerprint i rullgardinsmenyn Välj typ.
+  * Klicka på plustecknet till höger om Fingerprint.
+  * Sök efter och välj Värde i sidorutan.
+  * Sök efter och välj Källa i sidorutan.
+  * Skriv in uppgiften i Värde.
+  * Klicka på plustecknet till höger om Källa.
+  * Välj Termlista i sidorutan, Skapa lokal entitet.
+  * Klicka på plustecknet till höger om Termlista.
+  * Sök efter och välj Kod i sidorutan.
   * Skriv in koden.
   
 #### Upplageuppgift
