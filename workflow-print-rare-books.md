@@ -111,27 +111,26 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
 ##### Ar och datum (tryckar) 
-* År (008/07-10, 264 -/1 ‡c)  
+* År (008/07-10, 264 -/1 ‡c)
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
   <br/>```Exempel:```
-  * ```"1652" i trycket: 1652```
-    
-* Start- och slutår (flerbandsverk)  
+  * ```"1652" i trycket: 1652```  
+  
+* Start- och slutår (flerbandsverk)
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
- <br/>```Exempel:```
+  <br/>```Exempel:```
   * ```Startår: 1732```
   * ```Slutår: 1745```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
- 
- Om tryckår saknas eller är ofullständigt använder man även Datum.
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
- * Datum (264 -/1 ‡c)  
-   Här anges tryckår som måste anges med fler än fyra tecken.
+* Datum (264 -/1 ‡c)  
+  Här anges tryckår som måste anges med fler än fyra tecken.
   <br/>```Exempel:```
   * ```Tryckår saknas i trycket: [17--?]```
-  * ```Sannolikt tryckår: [1738?]```<br/>
-  * ```Flerbandsverk: [1746?]-1752```  
-  Glöm inte att ändra Typ av utgivningsdatum till: Flera årtal (monografisk resurs) 
+  * ```Sannolikt tryckår: [1738?]```<br/><br/>
+  * ```Flerbandsverk: [1746?]-1752``` 
+ 
+ Om tryckår saknas eller är ofullständigt använder man även Datum. 
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
