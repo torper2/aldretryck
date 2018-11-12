@@ -255,13 +255,13 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
 
 #### Ägarhistorik
 * Ägarhistorik (561 ‡a)   
-  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
+  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter.
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
   <br/>```Exempel:```<br/>
   ```Christian Hammer (exlibris) (ex. B)```<br/>
-  ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
+  ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
 #### Igenkänningstecken och identifiering av exemplar
 * Igenkänningstecken (562 ‡a)
@@ -273,19 +273,23 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * Skriv in uppgiften. 
   <br/>```Exempel: Med handkolorerade illustrationer```
   
-* Identifiering av exemplar (562 Cb)
-  * Klicka på plustecknet till höger om i Lokal anmärkning: Identifiering …
+* Identifiering av exemplar (562 ‡b)
+  * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Identifiering av exemplar i sidorutan.  
   * Skriv in uppgiften. 
   <br/>```Exempel: Ex. B```
   
+  Klicka på plustecknet intill Har lokal anmärkning: Identifiering ... för fler anmärkningar.
+  
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 ‡a)   
-  Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband. Man kan upprepa Benämning men i MARC21 hamnar då anmärkningarna i varsitt delfält.  
+  i de flesta fall räcker det att ange en bokbandsuppgift. Vid behov kan man upprepa Benämning. I MARC21 hamnar då anmärkningarna i varsitt delfält. Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband.       
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
   * Klicka på > intill Lokal anmärkning: Bokband.
   * Skriv in uppgiften i Benämning. 
   <br/>```Exempel: Rött sammetsband```
+  
+  Klicka på plustecknet intill Benämning för fler rader.
   
