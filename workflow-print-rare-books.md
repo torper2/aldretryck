@@ -252,8 +252,10 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   En uppgift som började användas vid övergången till RDA 2017. Den anges inte vid äldretryckskatalogisering enligt ISBD men ta inte bort fältet.
   
 ### Bestånd
-* Ägarhistorik (561 ‡a)   
-  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
+
+#### Ägarhistorik
+* Ägarhistorik (561 ‡a) 
+Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter. Ange dem i samma ruta.
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
@@ -261,8 +263,8 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * ```Christian Hammer (exlibris) (ex. B)```
   * ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp frånn Vegeholms bibliotek)```
   
-* Igenkänningstecken och identifiering av exemplar (562)
-* Igenkänningstecken
+#### Igenkänningstecken och identifiering av exemplar (562)
+* Igenkänningstecken (562 ‡a)
 * Klicka på plustecknet i högermarginalen.
 * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
 * Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
