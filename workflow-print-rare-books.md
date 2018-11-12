@@ -110,7 +110,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
-##### Ar och datum (tryckår) 
+##### Ar och datum (tryckar) 
 * År (008/07-10, 264 -/1 ‡c)  
   År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
   <br/>```Exempel:```
@@ -124,13 +124,13 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
  
  Om tryckår saknas eller är ofullständigt använder man även Datum.
- 
+  
  * Datum (264 -/1 ‡c)  
-  Här anges tryckår som måste anges med fler än fyra tecken.
+   Här anges tryckår som måste anges med fler än fyra tecken.
   <br/>```Exempel:```
   * ```Tryckår saknas i trycket: [17--?]```
-  * ```Sannolikt tryckår: [1738?]```  
-  * ```Flerbandsverk: [1746?]-1752```  
+  * ```Sannolikt tryckår: [1738?]```
+  * ```Flerbandsverk: [1746?]-1752```<br/>  
   Glöm inte att ändra Typ av utgivningsdatum till: Flera årtal (monografisk resurs) 
    
 #### Tillverkning 
