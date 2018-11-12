@@ -18,28 +18,22 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk)
-| ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
-|[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Fingerprint](#fingerprint) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)|[Klassifikation](#klassifikation) |
-|[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang)| |
-| [Beskrivningsnivå](#beskrivningsniva) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |  |
-| [Bibliografikod](#bibliografikod) |[Mått](#matt) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | |
-|  | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | | 
-
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
+| ------ | ----------- |  ----------- | ------------ |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |   
+| | [Fingerprint](#fingerprint) | [Innehållstyp](#innehallstyp) | [Bokband](#bokband) | 
+| | [Upplageuppgift](#upplageuppgift | | |
+| | [Utgivning](#utgivning) | | |   
+| | [Tillverkning](#tillverkning) | | | 
+| | [Omfång](#omfang) | | |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | |
+| | [Mått](#matt) | | |
+| | [Medietyp](#medietyp) | | |
+| | [Bärartyp](#barartyp) | | |
+| | [Numrering i seriell resurs](#numrering-i-seriell-resurs)
+| | [Seriemedlemskap](#seriemedlemskap) | | |
+| | [Anmärkning](#anmarkning) | | |
 
 
 ### Adminmetadata 
@@ -53,7 +47,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Instans
   
-#### Titel  
+#### Titel och upphov  
 
 ##### Hela referenstiteln i Huvudtitel    
 * Har titel/Titel/Huvudtitel (245 ‡a)  
@@ -78,6 +72,7 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 * Identifikator/Typanmärkning (024 ‡2)<br/>
 ```Exempel: SB17```
 
+##### Fingerprint
 Vi rekommenderar inte att använda Fingerprint men möjligheten finns att ange det här. Ange förslagsvis uppgiften i Värde och Källa, som ungefär motsvaras av Oanalyserat fingerprint och Källa i MARC21. 
 * Identifikator/Fingerprint/Värde (026 ‡e och ‡2)<br/>
   * Klicka på papperskorgen till höger om ISBN.<br/>
@@ -238,9 +233,9 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   * fmo (tidigare ägare) = anges oftast i Bestånd
   
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 ‡a)  
-  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten Lägga till Agent - Organisation i Instans av Verk 
+  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
-##### SAB-klassifikation  
+##### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   * SOT = Svenskt offentligt tryck -1833
@@ -263,7 +258,7 @@ Används inte vid katalogisering av äldre tryck. I exempelvis SB17-poster har t
   ```Christian Hammer (exlibris) (ex. B)```<br/>
   ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
-#### Igenkanningstecken och identifiering av exemplar
+#### Exemplarinformation
 * Igenkänningstecken (562 ‡a)
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
