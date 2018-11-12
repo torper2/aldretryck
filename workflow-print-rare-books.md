@@ -118,7 +118,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
   <br/>```Exempel:```
-  * ```Startår: 1732```
+  * ```Startåår: 1732```
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
