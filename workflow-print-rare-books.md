@@ -234,7 +234,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 ‡b)   
-  En uppgift som började användas vid övergången till RDA 2017. Den anges inte vid äldretryckskatalogisering enligt ISBD men ta inte bort fältet.
+  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
   
 ### Bestand
 
