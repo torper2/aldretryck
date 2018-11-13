@@ -112,7 +112,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
 ##### Ar och datum 
 * År (008/07-10, 264 -/1 ‡c)  
-  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges. Den får endast förekomma inom Primär utgivning och enbart innehålla siffror (0-9) och bokstaven u. År anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 ‡c. 
+  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 ‡c. 
   <br/>```Exempel: 1652```    
   
 * Start- och slutår (flerbandsverk)  
