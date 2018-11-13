@@ -56,7 +56,7 @@ Till referenstiteln räknas all text före impressum, inklusive upphovs- och upp
   * ```Monografi: Tankar, om husbönders och tjänstefolks skyldigheter emot hwarannan inbördes, i anledning af Johan Christopher Schinmejers twänne predikningar, på tyska, öfwer desza ämnen, wälment meddelade af Olof Rönigk. Andra uplagan.```
   * ```Flerbandsverk: Abregé chronologique de l'histoire de France, par le sr. de Mezeray ... Premiere partie, tome III.```
 
-##### Referenstiteln i Huvudtitel, Övrig titelinformation och upphovsuppgift
+##### Referenstiteln i Huvudtitel, Övrig titelinformation och Upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
 * Har titel/Titel/Huvudtitel (245 ‡a)<br/>
 ```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```<br/><br/>  
@@ -117,7 +117,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
-  <br/>```Exempel:```
+  <br/>```Exempel:```<br/>
   * ```Startår: 1732```
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
