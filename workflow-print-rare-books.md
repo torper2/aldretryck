@@ -254,10 +254,10 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
-  * Skriv in uppgiften.<br/><br/>
+  * Skriv in uppgifterna.<br/><br/>
   Igenkänningstecken
   <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
-  Identifiering av exemplar (562 ‡b)  
+  Identifiering av exemplar (562 ‡b)
   <br/>```Exempel: Ex. B```
   
   Klicka på plustecknet intill Har lokal anmärkning: Identifiering ... för fler anmärkningar.
