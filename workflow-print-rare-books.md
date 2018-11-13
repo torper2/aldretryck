@@ -95,29 +95,29 @@ Nutida uppdelning av olika funktioner (utgivare, tryckare, distributör och för
 Impressum anges enbart i Plats om det finns någon tryck- eller utgivningsuppgift i trycket.
 Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- eller utgivningsuppgifter i trycket.
  
-##### Utgivningsplats (tryckort)
+##### Utgivningsplats
 * Plats/Plats/Benämning (264 -/1 ‡a)  
-  Skriv in uppgiften under Benämning.
+  Här anges vanligtvis tryckort, tryckare etc. och tryckår. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
   * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```
   * ```Tryckuppgifter saknas: [Jönköping?]``` 
   
-##### Utgivarnamn (tryckare etc.)
+##### Utgivarnamn
 * Agent/Agent/Benämning (264 -/1 ‡b)  
-  Skriv in uppgiften under Benämning.
+  Här anges vanligtvis sannolika uppgifter om tryckare etc. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
-##### Ar och datum (tryckar) 
+##### Ar och datum 
 * År (008/07-10, 264 -/1 ‡c)  
-  År ska alltid anges. Det får endast förekomma inom Primär utgivning. Det kan innehålla siffror (0-9) och bokstaven u. Det anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År.
+  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges. Den får endast förekomma inom Primär utgivning och enbart innehålla siffror (0-9) och bokstaven u. År anges med fyra tecken. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 ‡c. 
   <br/>```Exempel: 1652```    
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
-  <br/>```Exempel:```<br/>
+  <br/>```Exempel:```
   * ```Startår: 1732```
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
