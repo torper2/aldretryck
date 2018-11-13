@@ -238,7 +238,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
 
 #### Agarhistorik
 * Ägarhistorik (561 ‡a)   
-  Det går för närvarande inte att skapa fler rader för ytterligare proveniensuppgifter.
+  Man kan för närvarande inte upprepa egenskapen Ägarhistorik. Alla proveniensuppgifter läggs därför in på ett ställe.
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
@@ -247,19 +247,17 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
 #### Exemplarinformation
-* Igenkänningstecken (562 ‡a)
+* Igenkänningstecken (562 ‡a) och Identifiering av exemplar (562 ‡b)  
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
   * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Igenkänningstecken i sidorutan.
-  * Skriv in uppgiften. 
-  <br/>```Exempel: Med handkolorerade illustrationer```
-  
-* Identifiering av exemplar (562 ‡b)
-  * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
-  * Sök efter och välj Identifiering av exemplar i sidorutan.  
-  * Skriv in uppgiften. 
+  * Sök efter och välj Identifiering av exemplar i sidorutan.
+  * Skriv in uppgiften.<br/><br/>
+  Igenkänningstecken
+  <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
+  Identifiering av exemplar (562 ‡b)  
   <br/>```Exempel: Ex. B```
   
   Klicka på plustecknet intill Har lokal anmärkning: Identifiering ... för fler anmärkningar.
