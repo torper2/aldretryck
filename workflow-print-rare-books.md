@@ -255,7 +255,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
   * Skriv in uppgifterna.<br/><br/>
-  Igenkänningstecken
+  Igenkänningstecken (562 ‡a) 
   <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
   Identifiering av exemplar (562 ‡b)
   <br/>```Exempel: Ex. B```
