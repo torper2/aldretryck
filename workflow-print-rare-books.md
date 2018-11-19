@@ -21,7 +21,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
-| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |   
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) | [Ämne](#amne)
 | | [Fingerprint](#fingerprint) | [Innehållstyp](#innehallstyp) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | | |
 | | [Utgivning](#utgivning) | | |   
@@ -228,7 +228,11 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   * SOT = Svenskt offentligt tryck -1833
   * COL = Collijn 1600-talet
-  * SB17 = Svensk bibliografi 1700-1829  
+  * SB17 = Svensk bibliografi 1700-1829
+  
+#### Amne  
+* Kontrollerat, ej auktoriserat ämnesord (650 ‡2)   
+  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh).  
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 ‡b)   
