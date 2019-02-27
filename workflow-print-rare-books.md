@@ -43,7 +43,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 ‡e)  
-  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiserinsregler: rda genom att klicka på papperskorgen till höger om egenskapen.  
+  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.  
 
 ### Instans
   
