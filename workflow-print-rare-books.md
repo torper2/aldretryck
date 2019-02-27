@@ -248,7 +248,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Skriv in uppgiften.
   <br/>```Exempel:```<br/>
   ```Christian Hammer (exlibris) (ex. B)```<br/>
-  ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
+  ```Ulrik von Döbeln (exlibris) ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
 #### Exemplarinformation
 * Igenkänningstecken (562 ‡a) och Identifiering av exemplar (562 ‡b)  
