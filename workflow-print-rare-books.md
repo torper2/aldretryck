@@ -201,7 +201,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 * Indexerad i/Instans/Har titel/Titel (510 ‡a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
 
-#### Namn på orter och territorier
+#### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search).  
 
 ##### Land  
