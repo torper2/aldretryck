@@ -41,7 +41,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 ‡b)  
-  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 ‡e)  
@@ -154,11 +154,11 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   
 #### Medietyp
 * Medietyp (337 ‡b)  
-  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
   
 #### Barartyp
 * Bärartyp (338 ‡b)  
-  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- ‡a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
@@ -238,7 +238,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 ‡b)   
-  Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
   
 ### Bestand
 
