@@ -154,11 +154,14 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   
 #### Medietyp
 * Medietyp (337 ‡b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (338 ‡b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  * ```Exempel: nb (= ark)```
+  * ```Exempel: nc (= volym)```
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- ‡a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
@@ -238,7 +241,8 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 ‡b)   
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
+  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  ```Exempel: txt (= text)```
   
 ### Bestand
 
