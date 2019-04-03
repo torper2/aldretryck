@@ -11,7 +11,10 @@ tags:
 
 ## Äldre tryck
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av äldre tryck. Med äldre tryck avses skrifter som har framställts i handpress. Det omfattar nästan allt material som är tryckt före 1830. Nya Libris är anpassat efter katalogisering enligt RDA men äldre tryck katalogiseras enligt ISBD. Många anvisningar rör därför skillnader mellan RDA och ISBD. För instruktioner angående övriga egenskaper, se respektive hjälptext. För katalogiseringsanvisningar, se [Anvisningar för äldre tryck](http://www.kb.se/katalogisering/Katalogisering/aldre-tryck/ "Anvisningar för äldre tryck").
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av äldre tryck. Med äldre tryck avses skrifter som har framställts i handpress. Det omfattar nästan allt material som är tryckt före 1830. Nya Libris är anpassat efter katalogisering enligt RDA men äldre tryck katalogiseras enligt ISBD. Många anvisningar rör därför skillnader mellan RDA och ISBD.
+
+* För generella instruktioner om hur man lägger in nedanstående egenskaper, se hjälptexterna för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) respektive [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+* För katalogiseringsanvisningar, se [Anvisningar för äldre tryck](http://www.kb.se/katalogisering/Katalogisering/aldre-tryck/ "Anvisningar för äldre tryck").
 
 [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates) är ofta användbart när man vill lägga till egenskaper i en befintlig post.
 
