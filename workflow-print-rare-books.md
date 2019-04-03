@@ -135,7 +135,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
-Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 ‡e och ‡f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter i Har biuppslag - Namn på orter och territorier (752 ‡a och ‡d) och tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
+Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d) och tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
@@ -193,7 +193,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   <br/>```Exempel:```
   * ```Fraktur```
   * ```Boktryckarmärke på sista sidan```
-  <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 ‡a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
+  <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
   * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 #### Citering i referatorgan    
