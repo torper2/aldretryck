@@ -22,7 +22,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ------ | ----------- |  ----------- | ------------ |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
-| | [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
+|[Anmärkning om katalogiseringskälla](anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) | |
 | | [Utgivning](#utgivning) | | |   
 | | [Tillverkning](#tillverkning) | | | 
@@ -45,7 +45,13 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
-  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.  
+  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
+  
+#### Anmarkning om katalogiseringskalla  
+* Katalogiseringsregler (588 #a)  
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas.
+  <br/>```Exempel:```
+  * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
   
@@ -192,9 +198,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   Skriv in allmänna anmärkningar i Benämning.
   <br/>```Exempel:```
   * ```Fraktur```
-  * ```Boktryckarmärke på sista sidan```
-  <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
-  * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
+  * ```Boktryckarmärke på sista sidan```  
 
 #### Citering i referatorgan    
   Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
