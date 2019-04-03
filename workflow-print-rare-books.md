@@ -34,7 +34,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Numrering i seriell resurs](#numrering-i-seriell-resurs)
 | | [Seriemedlemskap](#seriemedlemskap) | | |
 | | [Anmärkning](#anmarkning) | | |
-| | [Anmärkning](#anmarkning) | | |
 | | [Citering i referatorgan](#citering-i-referatorgan) | | |
 | | [Namn på orter och territorier](#namn-pa-orter-och-territorier) | | |
 
