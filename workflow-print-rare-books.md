@@ -188,7 +188,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   ```Exempel: 0```   
  
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (500 #a)   
+* Anmärkning (hasNote)/Anmärkning (Note)/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
   <br/>```Exempel:```
   * ```Fraktur```
