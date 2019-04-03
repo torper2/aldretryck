@@ -48,8 +48,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Anmarkning om katalogiseringskalla  
 * Katalogiseringsregler (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas.
-  <br/>```Exempel:```
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas.<br/>  
   * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
