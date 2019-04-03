@@ -48,7 +48,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).<br/>  
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).  
   ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
