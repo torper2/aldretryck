@@ -24,7 +24,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
-| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding) | 
+| [Generell hjälptext: Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext: Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext: Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext: Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
@@ -45,7 +45,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
@@ -163,12 +163,12 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   
 #### Medietyp
 * Medietyp (337 #b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
   ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (338 #b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
   * ```Exempel: nb (= ark)```
   * ```Exempel: nc (= volym)```
   
@@ -248,7 +248,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.<br/>
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
   ```Exempel: txt (= text)```
   
 ### Bestand
