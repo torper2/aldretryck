@@ -159,7 +159,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 
 #### Matt 
 * Mått/Mått/Benämning (300 #c)  
-  ```Exempel: 8:o(12/6)``` 
+  ```Exempel: 18:o(12/6)``` 
   
 #### Medietyp
 * Medietyp (337 #b)  
