@@ -233,7 +233,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
 
 #### Medverkan och funktion  
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 #a)  
-  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
 #### Klassifikation  
 * SAB-klassifikation  
@@ -244,7 +244,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
-  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh).  
+  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).  
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
