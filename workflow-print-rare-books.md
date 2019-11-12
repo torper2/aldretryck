@@ -45,8 +45,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.
-  ![Katalogiseringsspråk](katalogiseringssprak.png)
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.  
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
