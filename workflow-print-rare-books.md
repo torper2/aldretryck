@@ -30,7 +30,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) | |
 | | [Utgivning](#utgivning) | | |
-| | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillganliggorande) | | |
+| | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | |
 | | [Tillverkning](#tillverkning) | | | 
 | | [Omfång](#omfang) | | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | |
