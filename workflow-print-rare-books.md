@@ -56,7 +56,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).  
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.  
   ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
@@ -224,12 +224,13 @@ Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har t
   * ```Boktryckarmärke på sista sidan```  
 
 #### Citering i referatorgan    
-  Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
+  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Alternativ lösning är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 #a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 #c)
 
 #### Namn pa orter och territorier
-  Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search).  
+  Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
+  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är lite krångligt. Använd förslagsvis [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Alternativ lösning är att kopiera en post som har följande egenskaper med:
 
 ##### Land  
 * Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a)  
