@@ -160,10 +160,12 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
-Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi:
+Egenskapen används vanligtvis inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi:
 
   * tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
-  * tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
+  * tryckare i Medverkan och funktion/Agent/Organisation (710 #a).
+  
+För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
@@ -241,7 +243,7 @@ Lägga in manuellt:
 * Skriv in land och stad i respekitve ruta.
   
 ##### Orter som har bytt namn och landtillhörighet    
-I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange nutida ortnamn och landtillhörighet. Det finns ingen motsvarighet till 751 i nya Libris. Det borde däremot vara tillåtet att ange två biuppslag på orter men man kan i dagsläget bara ange en ort.
+I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där inte behövde ange landtillhörighet, till skillnad från i fält 752. Det finns ingen motsvarighet till 751 i nya Libris. Jag föreslår därför att vi tills vidare anger orter som heter något annat nu i Tillverkning.    
   
 ### Verk   
 
