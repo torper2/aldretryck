@@ -241,7 +241,7 @@ Lägga in manuellt:
 * Klicka på plustecknet intill rubriken.
 * Sök efter och välj Land / Överordnat territorium i sidorutan.
 * Sök efter och välj Stad, kommun i sidorutan.
-* Skriv in land och stad i respekitve ruta.
+* Skriv in land och stad i respektive ruta.
   
 ##### Orter som har bytt namn och landtillhörighet    
 I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där inte behövde ange landtillhörighet, till skillnad från i fält 752. Det finns ingen motsvarighet till 751 i nya Libris. Jag föreslår därför att vi tills vidare anger orter som heter något annat nu i Tillverkning.    
