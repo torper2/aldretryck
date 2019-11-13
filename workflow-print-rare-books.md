@@ -145,7 +145,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Flerbandsverk: [1746?]-1752```
   
 ##### Huvudsakligt tillgängliggörande
-Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges. I Utgivning anges de uppgifter som står i trycket, som vanligt. Landkod ska dock inte anges här. 
+Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges. I Utgivning anges de uppgifter som står i trycket, som vanligt. Landkoden tas bort eftersom den ska anges i Huvudsakligt tillgängliggörande.
 
 * Huvudsakligt tillgängliggörande/Primär utgivning (264)
   * Klicka på det stora plustecknet och välj Huvudsakligt tillgängliggörande.
