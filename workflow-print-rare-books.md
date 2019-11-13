@@ -255,9 +255,6 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
 #### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
-  * SOT = Svenskt offentligt tryck -1833
-  * COL = Collijn 1600-talet
-  * SB17 = Svensk bibliografi 1700-1829
   
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
@@ -294,7 +291,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   Identifiering av exemplar (562 #b)
   <br/>```Exempel: Ex. B```
   
-  Klicka på plustecknet intill Har lokal anmärkning: Identifiering ... för fler anmärkningar.
+  Klicka på plustecknet till vänster om Har lokal anmärkning: Identifiering ... för fler anmärkningar.
   
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 #a)   
@@ -307,6 +304,3 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   <br/>```Exempel: Rött sammetsband```
   
   Klicka på plustecknet intill Benämning för fler anmärkningar.
-  
-  
-  
