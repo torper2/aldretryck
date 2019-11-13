@@ -29,7 +29,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) | |
-| | [Utgivning](#utgivning) | | |   
+| | [Utgivning](#utgivning) | | |
+| | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillganliggörande) | | |
 | | [Tillverkning](#tillverkning) | | | 
 | | [Omfång](#omfang) | | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | |
