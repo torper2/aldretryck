@@ -30,7 +30,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) | |
 | | [Utgivning](#utgivning) | | |
-| | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillganliggörande) | | |
+| | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillganliggorande) | | |
 | | [Tillverkning](#tillverkning) | | | 
 | | [Omfång](#omfang) | | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | |
@@ -145,7 +145,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Sannolikt tryckår: [1738?]```
   * ```Flerbandsverk: [1746?]-1752```
   
-#### Huvudsakligt tillgangliggörande
+#### Huvudsakligt tillgangliggorande
 Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges. I Utgivning anges de uppgifter som står i trycket, som vanligt. Landkoden tas bort eftersom den ska anges i Huvudsakligt tillgängliggörande.
 
 * Huvudsakligt tillgängliggörande/Primär utgivning (264)
