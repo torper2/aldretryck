@@ -161,8 +161,8 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
 #### Tillverkning 
 * Tillverkning (264 -/3)  
 Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi d:
-* tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
-* tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
+- tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
+- tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
