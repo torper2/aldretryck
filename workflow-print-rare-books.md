@@ -45,12 +45,14 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck. 
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.     
   
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
+  
+  Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd". 
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
@@ -164,12 +166,12 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   
 #### Medietyp
 * Medietyp (337 #b)  
-  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
   ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (338 #b)  
-  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
   * ```Exempel: nb (= ark)```
   * ```Exempel: nc (= volym)```
   
@@ -249,7 +251,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
-  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.<br/>
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
   ```Exempel: txt (= text)```
   
 ### Bestand
