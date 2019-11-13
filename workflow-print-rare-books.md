@@ -178,7 +178,7 @@ Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har t
 
 #### Matt 
 * Mått/Mått/Benämning (300 #c)  
-  ```Exempel: 18:o(12/6)``` 
+  ```Exempel: 8:o``` 
   
 #### Medietyp
 * Medietyp (337 #b)  
@@ -192,7 +192,8 @@ Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har t
   * ```Exempel: nc (= volym)```
   
 #### Numrering i seriell resurs   
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)
+  Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
   ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
   
 #### Seriemedlemskap
