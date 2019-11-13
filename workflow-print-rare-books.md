@@ -192,7 +192,7 @@ Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har t
   * ```Exempel: nc (= volym)```
   
 #### Numrering i seriell resurs   
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a) 
   Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
   ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
   
