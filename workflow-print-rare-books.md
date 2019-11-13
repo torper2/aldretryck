@@ -150,17 +150,19 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
 * Huvudsakligt tillgängliggörande/Primär utgivning (264)
   * Klicka på det stora plustecknet och välj Huvudsakligt tillgängliggörande.
   * Välj Primär utgivning i rullgardinsmenyn.
-  * Flera av de egenskaper som då dyker upp är inte adekvata när man ska ange intervall
-  * Plats, Agent och Datum anges i Utgivning, inte här
-  * Landkod måste läggas till (country/sw är inte förval)
+  * Flera av de egenskaper som då dyker upp är inte adekvata när man ska ange intervall. Plats, Agent och Datum anges i Utgivning, inte här. De försvinner när man sparar eftersom det inte finns något innehåll i dem. 
+  * Landkod måste läggas till (country/sw är inte förval).
   * Klicka på plustecknet till höger om Primär utgivning
-  * Sök efter och välj Kompletterande datum samt Typ av utgivningsdatum (välj Osäkert årtal)
-  * Skriv in troligt startår i År
-  * Skriv in troligt slutår i Kompletterande datum  
+  * Sök efter och välj Kompletterande datum samt Typ av utgivningsdatum.
+  * Skriv in troligt startår i År.
+  * Skriv in troligt slutår i Kompletterande datum.
+  * Välj Osäkert årtal i Typ av utgivningsdatum.
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
-Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi dock tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d) och tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
+Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgifter i normaliserad form lagts i 260 #e och #f. Dessa uppgifter har i nya Libris placerats här. Numera anger vi d:
+* tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
+* tryckare i Medverkan och funktion/Agent/Organisation (710 #a).  
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
