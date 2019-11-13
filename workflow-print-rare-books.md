@@ -56,7 +56,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).  
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).  
   ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
@@ -65,7 +65,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ##### Hela referenstiteln i Huvudtitel    
 * Har titel/Titel/Huvudtitel (245 #a)  
-Till referenstiteln räknas all text före impressum, inklusive upphovs- och upplageuppgifter. Hela referenstiteln bör anges i Huvudtitel om syntaxen bryts eller om man skulle behöva ändra ordningsföjden på titel-, upphovs- och upplageuppgifterna.
+Till referenstiteln räknas all text före impressum, inklusive upphovsuppgifter och oftast även upplageuppgifter. Hela referenstiteln bör anges i Huvudtitel om syntaxen bryts eller om man skulle behöva ändra ordningsföjden på titel-, upphovs- och upplageuppgifterna.
 <br/>```Exempel:```
   * ```Monografi: Tankar, om husbönders och tjänstefolks skyldigheter emot hwarannan inbördes, i anledning af Johan Christopher Schinmejers twänne predikningar, på tyska, öfwer desza ämnen, wälment meddelade af Olof Rönigk. Andra uplagan.```
   * ```Flerbandsverk: Abregé chronologique de l'histoire de France, par le sr. de Mezeray ... Premiere partie, tome III.```
@@ -87,15 +87,14 @@ Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
 ```Exempel: SB17```
 
 ##### Fingerprint
-Fingerprint rekommenderas inte men möjligheten finns att ange det här. Det går för närvarande inte att länka till godkänd källkod. 
+Fingerprint rekommenderas inte men möjligheten finns att ange det här.
 * Identifikator/Fingerprint/Värde (026)
-  * Klicka på papperskorgen till höger om ISBN.
   * Klicka på det stora plustecknet i högermarginalen.
   * Sök efter och välj Identifikator i sidorutan.
   * Välj Fingerprint i rullgardinsmenyn Välj typ.
   * Klicka på plustecknet till höger om Fingerprint.
-  * Sök efter och välj Värde i sidorutan.  
-  * Skriv in uppgiften i Värde.  
+  * Sök efter och välj Värde i sidorutan. Skriv in uppgiften i Värde.
+  * Sök efter och välj Källa. Skriv in koden i Källa. 
   
 #### Upplageuppgift
 * Upplageuppgift (250 #a)  
@@ -111,7 +110,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (264 -/1 #a)  
-  Här anges vanligtvis tryckort, tryckare etc. och tryckår. Skriv in uppgiften under Benämning.
+  Här anges vanligtvis tryckort, tryckare etc. och tryckår.
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
   * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```
@@ -119,7 +118,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
 ##### Utgivarnamn
 * Agent/Agent/Benämning (264 -/1 #b)  
-  Här anges vanligtvis sannolika uppgifter om tryckare etc. Skriv in uppgiften under Benämning.
+  Här anges vanligtvis sannolika uppgifter om tryckare etc.
   <br/>```Exempel:```
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
@@ -143,7 +142,20 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   <br/>```Exempel:```
   * ```Tryckår saknas i trycket: [17--?]```
   * ```Sannolikt tryckår: [1738?]```
-  * ```Flerbandsverk: [1746?]-1752```  
+  * ```Flerbandsverk: [1746?]-1752```
+  
+##### Huvudsakligt tillgängliggörande
+Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges.
+
+* Utgivning (264 #a, #b och #c)    
+  Här anges de uppgifter som står i trycket, som vanligt. Landkod ska dock inte anges här.
+  
+* Huvudsakligt tillgängliggörande/Primär utgivning (264 #a, #b och #c) 
+Klicka på det stora plustecknet och välj Huvudsakligt tillgängliggörande. Flera av de egenskaper som då dyker upp är inte adekvata när man ska ange intervall:<br/>
+* Plats, Agent och Datum anges i Utgivning, inte här
+* Landkod måste läggas till (country/sw är inte förval)
+* Klicka på plustecknet till höger om Primär utgivning
+* Sök efter och välj Kompletterande datum samt Typ av utgivningsdatum (välj Osäkert årtal)  
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
