@@ -230,22 +230,15 @@ Egenskapen används inte vid katalogisering av äldre tryck. I SB17-poster har t
 
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
-  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är lite krångligt. Använd förslagsvis [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Alternativ lösning är att kopiera en post som har följande egenskaper med:
+  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är lite krångligt. Använd förslagsvis [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.
 
-##### Land  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a)  
-  * Klicka på det stora plustecknet i högermarginalen.
-  * Sök efter och välj Har biuppslag - Namn på orter och territorier i sidorutan.
-  * Klicka på plustecknet intill rubriken.
-  * Sök efter och välj Land / Överordnat territorium i sidorutan.
-  * Skriv in uppgiften.  
-   ```Exempel: Sverige```   
-
-##### Stad  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 #d)  
-  * Sök efter och välj Stad, kommun i sidorutan. 
-  * Skriv in uppgiften.  
-  ```Exempel: Stockholm```
+Lägga in manuellt:  
+* Klicka på det stora plustecknet i högermarginalen.
+* Sök efter och välj Har biuppslag - Namn på orter och territorier i sidorutan.
+* Klicka på plustecknet intill rubriken.
+* Sök efter och välj Land / Överordnat territorium i sidorutan.
+* Sök efter och välj Stad, kommun i sidorutan.
+* Skriv in land och stad i respekitve ruta.
   
 ##### Orter som har bytt namn och landtillhörighet    
 I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange nutida ortnamn och landtillhörighet. Det finns ingen motsvarighet till 751 i nya Libris. Det borde däremot vara tillåtet att ange två biuppslag på orter men man kan i dagsläget bara ange en ort.
