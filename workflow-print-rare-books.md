@@ -140,7 +140,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
   Ofullständiga tryckuppgifter i trycket:
   
-  bild: insttryckfull
+  bild: insttryckofull
   
   Tryckuppgifter saknas:
   
@@ -253,7 +253,13 @@ bild: instmatt
 * Bärartyp (338 #b)  
   Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
   
-  bild: instbarartyp
+ Volym:
+ 
+ bild: instbarartyp1
+ 
+ Ark:
+ 
+ bild: instbarartyp2
   
   
 #### Numrering i seriell resurs   
