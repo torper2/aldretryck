@@ -46,19 +46,27 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.     
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+  bild: adminkatsprak
   
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
   
-  Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd". 
+  bild: adminkatreglerrda
+  
+  Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd".
+  
+  bild: adminkatreglerisbd
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.  
-  ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.
+  
+  bild: adminkatkalla
+ 
 
 ### Instans
   
@@ -67,25 +75,30 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ##### Hela referenstiteln i Huvudtitel    
 * Har titel/Titel/Huvudtitel (245 #a)  
 Till referenstiteln räknas all text före impressum, inklusive upphovsuppgifter och oftast även upplageuppgifter. Hela referenstiteln bör anges i Huvudtitel om syntaxen bryts eller om man skulle behöva ändra ordningsföjden på titel-, upphovs- och upplageuppgifterna.
-<br/>```Exempel:```
-  * ```Monografi: Tankar, om husbönders och tjänstefolks skyldigheter emot hwarannan inbördes, i anledning af Johan Christopher Schinmejers twänne predikningar, på tyska, öfwer desza ämnen, wälment meddelade af Olof Rönigk. Andra uplagan.```
-  * ```Flerbandsverk: Abregé chronologique de l'histoire de France, par le sr. de Mezeray ... Premiere partie, tome III.```
+
+Monografi:
+
+bild: insttitelmon 
+
+
+Flerbandsverk:
+
+bild: insttitelfv
 
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och Upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
-* Har titel/Titel/Huvudtitel (245 #a)<br/>
-```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```<br/><br/>  
-* Har titel/Titel/Övrig titelinformation (245 #b)<br/>
-```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```<br/><br/>  
-* Upphovsuppgift (245 #c)<br/>
-```Exempel: af E. M Arndt.```
+
+Monografi:
+
+bild: insttitelupphov
+
+
 
 #### Identifikator
 Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
-* Identifikator/Värde (024 #a)<br/>
-```Exempel: 840111g31```<br/><br/>
-* Identifikator/Typanmärkning (024 #2)<br/>
-```Exempel: SB17```
+ 
+ bild: instidentifikator
+
 
 ##### Fingerprint
 Fingerprint rekommenderas inte men möjligheten finns att ange det här.
@@ -95,12 +108,20 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här.
   * Välj Fingerprint i rullgardinsmenyn Välj typ.
   * Klicka på plustecknet till höger om Fingerprint.
   * Sök efter och välj Värde i sidorutan. Skriv in uppgiften i Värde.
-  * Sök efter och välj Källa. Skriv in koden i Källa. 
+  * Sök efter och välj Källa.
+  * Välj Källa i Skapa lokal entitet.
+  * Klicka på plustecknet till höger om Källa.
+  * Sök efter och välj Kod. Skriv in koden i Källa.
+  
+  bild: instfingerprint  
+  
   
 #### Upplageuppgift
 * Upplageuppgift (250 #a)  
-  Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.  
-  ```Exempel: [Ny udgave]```  
+  Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.
+  
+  bild: instuppl
+ 
   
 #### Utgivning  
 * Utgivning  
@@ -112,29 +133,43 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
 ##### Utgivningsplats
 * Plats/Plats/Benämning (264 -/1 #a)  
   Här anges vanligtvis tryckort, tryckare etc. och tryckår.
-  <br/>```Exempel:```
-  * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
-  * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```
-  * ```Tryckuppgifter saknas: [Jönköping?]``` 
+  
+  Fullständiga tryckuppgifter i trycket:
+  
+  bild: insttryckfull
+  
+  Ofullständiga tryckuppgifter i trycket:
+  
+  bild: insttryckfull
+  
+  Tryckuppgifter saknas:
+  
+  bild: insttrycksaknas 
+ 
   
 ##### Utgivarnamn
 * Agent/Agent/Benämning (264 -/1 #b)  
   Här anges vanligtvis sannolika uppgifter om tryckare etc.
-  <br/>```Exempel:```
-  * ```Tryckuppgifter saknas: [Curt?]```
-  * ```Tryckuppgifter saknas: [utgivare okänd]```  
+  
+  Tryckeriuppgift saknas i trycket:
+  
+  bild: insttryckagent1
+  
+  Okänd tryckare, utgivare:
+  
+  bild: insttryckagent2
   
 ##### Ar och datum 
 * År (008/07-10, 264 -/1 #c)  
-  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c. 
-  <br/>```Exempel: 1652```    
+  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c.
+  
+  bild: insttryckar    
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
-  <br/>```Exempel:```
-  * ```Startår: 1732```
-  * ```Slutår: 1745```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  
+  bild: insttryckstartar
+  
   
   <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
   
