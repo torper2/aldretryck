@@ -293,6 +293,8 @@ Lägga in manuellt:
 * Sök efter och välj Land / Överordnat territorium i sidorutan.
 * Sök efter och välj Stad, kommun i sidorutan.
 * Skriv in land och stad i respektive ruta.
+
+bild: instorter
   
 ##### Orter som har bytt namn och landtillhörighet    
 I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där inte behövde ange landtillhörighet, till skillnad från i fält 752. Det finns ingen motsvarighet till 751 i nya Libris. Jag föreslår därför att vi tills vidare anger orter som heter något annat nu i Tillverkning.    
@@ -301,20 +303,29 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
 
 #### Medverkan och funktion  
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 #a)  
-  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
+  
+  Tryckare:
+  bild: verktryckare 
 
 #### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   
+ bild: verksab
+  
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
-  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).  
+  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).
+  
+  bild:verkquiding
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  ```Exempel: txt (= text)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+  Text:
+  bild: verkinnehallstyp 
   
 ### Bestand
 
@@ -324,9 +335,14 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
-  <br/>```Exempel:```<br/>
-  ```Christian Hammer (exlibris) (ex. B)```<br/>
-  ```Ulrik von Döbeln (exlibris) ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
+  
+  En proveniensuppgift:
+  
+  bild: bestprov1
+  
+  Två proveniensuppgifter:
+  
+  bild: bestprov2 
   
 #### Exemplarinformation
 * Igenkänningstecken (562 #a) och Identifiering av exemplar (562 #b)  
@@ -336,13 +352,10 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
-  * Skriv in uppgifterna.<br/><br/>
-  Igenkänningstecken (562 #a) 
-  <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
-  Identifiering av exemplar (562 #b)
-  <br/>```Exempel: Ex. B```
-  
+  * Skriv in uppgifterna.<br/><br/>  
   Klicka på plustecknet till vänster om Har lokal anmärkning: Identifiering ... för fler anmärkningar.
+  
+  bild: bestexemplar
   
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 #a)   
