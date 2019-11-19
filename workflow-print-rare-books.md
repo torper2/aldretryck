@@ -258,40 +258,29 @@ bild: instmatt
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> 
-  Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
-  ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
+  Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.
+  
+  bild: instnumrering
   
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
-  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.  
+  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.
+  
+  bild: instserie
 
-##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (490 #a)  
-  Skriv in uppgiften.  
-   ```Exempel: Smärre skrifter hopsamlade```   
-
-##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (490 #v, 830 #v)  
-  Skriv in uppgiften.  
-  ```Exempel: 1:1```  
-
-##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag (490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift och eventuell numrering inom serie ska anges.  
-  Skriv in uppgiften.  
-  ```Exempel: 0```   
  
 #### Anmarkning
 * Anmärkning (hasNote)/Anmärkning (Note)/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
-  <br/>```Exempel:```
-  * ```Fraktur```
-  * ```Boktryckarmärke på sista sidan```  
+  
+  bild: instanmarkning
 
 #### Citering i referatorgan    
-  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Alternativ lösning är att kopiera en post som har följande egenskaper med:
+  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Välj Duplicera entitet om om fler entiteter ska läggas in. Alternativ lösning är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 #a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 #c)
+
+bild:instcitering
 
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
