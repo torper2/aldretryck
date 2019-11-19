@@ -175,10 +175,19 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
 * Datum (264 -/1 #c)    
   Här anges tryckår som måste anges med fler än fyra tecken.
-  <br/>```Exempel:```
-  * ```Tryckår saknas i trycket: [17--?]```
-  * ```Sannolikt tryckår: [1738?]```
-  * ```Flerbandsverk: [1746?]-1752```
+  
+  Tryckår saknas i trycket:
+  
+  bild:insttryckdatum1
+  
+  Sannolikt tryckår:
+  
+  bild: insttryckdatum2
+  
+  Flerbandsverk:
+  
+  bild: insttryckdatum3 
+  
   
 #### Huvudsakligt tillgangliggorande
 Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges. I Utgivning anges de uppgifter som står i trycket, som vanligt. Landkoden tas bort eftersom den ska anges i Huvudsakligt tillgängliggörande.
@@ -193,6 +202,8 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
   * Skriv in troligt startår i År.
   * Skriv in troligt slutår i Kompletterande datum.
   * Välj Osäkert årtal i Typ av utgivningsdatum.
+  
+  bild: insthuvudsakligt
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
@@ -201,33 +212,49 @@ Egenskapen används vanligtvis inte vid katalogisering av äldre tryck. I SB17-p
   * tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
   * tryckare i Medverkan och funktion/Agent/Organisation (710 #a).
   
-För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.  
+För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.
+
+bild: insttillverkning
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
   Enligt RDA ska man inte förkorta sidor, planschblad etc. Vi förkortar så länge vi katalogiserar enligt ISBD.
-  <br/>```Exempel:```
-  * ```x, 692 s. (s. 687-692 opag., 687-688 annonser)```
-  * ```5 vol. ([4], 412; [4] 448; 392; 408; 368 (s. 368 opag.) s., frontespis```    
+  
+  Monografi:
+  
+  bild: instomfang1
+  
+  Flerbandsverk:
+  
+  bild: instomfang2
+    
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (300 #b)  
-  ```Exempel: 20 ill. (träsnitt)```
+* Övriga fysiska detaljer (300 #b)
+
+bild: instovrigafysiska 
+  
 
 #### Matt 
-* Mått/Mått/Benämning (300 #c)  
-  ```Exempel: 8:o``` 
+* Mått/Mått/Benämning (300 #c)
+
+bild: instmatt 
   
 #### Medietyp
 * Medietyp (337 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  ```Exempel: n (= omedierad)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+ Omedierad:
+ 
+ bild: instmedietyp
+ 
   
 #### Barartyp
 * Bärartyp (338 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  * ```Exempel: nb (= ark)```
-  * ```Exempel: nc (= volym)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+  bild: instbarartyp
+  
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> 
