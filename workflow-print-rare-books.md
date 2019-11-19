@@ -364,7 +364,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
   * Klicka på > intill Lokal anmärkning: Bokband.
-  * Skriv in uppgiften i Benämning. 
-  <br/>```Exempel: Rött sammetsband```
-  
+  * Skriv in uppgiften i Benämning.  
   Klicka på plustecknet intill Benämning för fler anmärkningar.
+  
+  bild: bestbokband
