@@ -312,6 +312,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
   
   Tryckare:
+  
   ![Tryckare](verktryckare.png) 
 
 #### Klassifikation  
