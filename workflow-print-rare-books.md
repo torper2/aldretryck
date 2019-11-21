@@ -319,7 +319,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   
- ![SAB](verksab)
+  ![SAB](verksab)
   
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
