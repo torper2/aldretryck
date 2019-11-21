@@ -48,24 +48,24 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Katalogiseringsspråk (040 #b)  
   Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
   
-  bild: adminkatsprak
+  ![Katalogiseringsspråk](adminkatsprak.png)
   
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
   
-  bild: adminkatreglerrda
+  ![Katalogiseringsregler rda](adminkatreglerrda.png)
   
   Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd".
   
-  bild: adminkatreglerisbd
+  ![Katalogiseringsregler isbd](adminkatreglerisbd.png)
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
   Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.
   
-  bild: adminkatkalla
+  ![Katalogiseringskälla](adminkatkalla.png)
  
 
 ### Instans
@@ -78,19 +78,19 @@ Till referenstiteln räknas all text före impressum, inklusive upphovsuppgifter
 
 Monografi:
 
-bild: insttitelmon 
+![Referenstitel i Huvudtitel - monografi](insttitelmon.png) 
 
 
 Flerbandsverk:
 
-bild: insttitelfv
+![Referenstitel i Huvudtitel - flerbandsverk](insttitelfv.png)
 
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och Upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
 
 Monografi:
 
-bild: insttitelupphov
+![Referenstitel i Har titel och Upphov](insttitelupphov.png)
 
 
 
