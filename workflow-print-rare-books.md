@@ -97,7 +97,7 @@ Monografi:
 #### Identifikator
 Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
  
- bild: instidentifikator
+![Identifikator](instidentifikator.png)
 
 
 ##### Fingerprint
@@ -113,14 +113,14 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här.
   * Klicka på plustecknet till höger om Källa.
   * Sök efter och välj Kod. Skriv in koden i Källa.
   
-  bild: instfingerprint  
+ ![Fingerprint](instfingerprint)  
   
   
 #### Upplageuppgift
 * Upplageuppgift (250 #a)  
   Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.
   
-  bild: instuppl
+  ![Upplageuppgift](instuppl.png)
  
   
 #### Utgivning  
@@ -136,15 +136,15 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
   Fullständiga tryckuppgifter i trycket:
   
-  bild: insttryckfull
+  ![Fullständiga tryckuppgifter](insttryckfull.png)
   
   Ofullständiga tryckuppgifter i trycket:
   
-  bild: insttryckofull
+  ![Ofullständiga tryckuppgifter](insttryckofull.png)
   
   Tryckuppgifter saknas:
   
-  bild: insttrycksaknas 
+  ![Tryckuppgifter saknas](insttrycksaknas.png) 
  
   
 ##### Utgivarnamn
@@ -153,22 +153,22 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
   Tryckeriuppgift saknas i trycket:
   
-  bild: insttryckagent1
+  ![Tryckeriuppgift saknas](insttryckagent1.png)
   
   Okänd tryckare, utgivare:
   
-  bild: insttryckagent2
+  ![Okänd tryckare](insttryckagent2.png)
   
 ##### Ar och datum 
 * År (008/07-10, 264 -/1 #c)  
   Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c.
   
-  bild: insttryckar    
+  ![Tryckår](insttryckar.png)    
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
   
-  bild: insttryckstartar
+  ![Startår](insttryckstartar.png)
   
   
   <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
@@ -178,15 +178,15 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   
   Tryckår saknas i trycket:
   
-  bild:insttryckdatum1
+  ![Tryckår saknas](insttryckdatum1.png)
   
   Sannolikt tryckår:
   
-  bild: insttryckdatum2
+  ![Sannolikt tryckår](insttryckdatum2.png)
   
   Flerbandsverk:
   
-  bild: insttryckdatum3 
+  ![Tryckår för flerbandsverk](insttryckdatum3.png) 
   
   
 #### Huvudsakligt tillgangliggorande
@@ -203,7 +203,7 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
   * Skriv in troligt slutår i Kompletterande datum.
   * Välj Osäkert årtal i Typ av utgivningsdatum.
   
-  bild: insthuvudsakligt
+  ![Huvudsakligt tillgängliggörande](insthuvudsakligt.png)
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
@@ -214,7 +214,7 @@ Egenskapen används vanligtvis inte vid katalogisering av äldre tryck. I SB17-p
   
 För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.
 
-bild: insttillverkning
+![Tillverkning](insttillverkning.png)
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
@@ -222,23 +222,23 @@ bild: insttillverkning
   
   Monografi:
   
-  bild: instomfang1
+  ![Omfång för monografi](instomfang1)
   
   Flerbandsverk:
   
-  bild: instomfang2
+  ![Omfång för flerbandsverk](instomfang2)
     
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (300 #b)
 
-bild: instovrigafysiska 
+![Övriga fysiska detaljer](instovrigafysiska.png) 
   
 
 #### Matt 
 * Mått/Mått/Benämning (300 #c)
 
-bild: instmatt 
+![Mått](instmatt.png) 
   
 #### Medietyp
 * Medietyp (337 #b)  
@@ -246,7 +246,7 @@ bild: instmatt
   
  Omedierad:
  
- bild: instmedietyp
+ ![Medietyp](instmedietyp.png)
  
   
 #### Barartyp
@@ -255,38 +255,38 @@ bild: instmatt
   
  Volym:
  
- bild: instbarartyp1
+ ![Bärartyp volym](instbarartyp1.png)
  
  Ark:
  
- bild: instbarartyp2
+ ![Bärartyp ark](instbarartyp2.png)
   
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> 
   Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.
   
-  bild: instnumrering
+  ![Numrering](instnumrering.png)
   
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
   Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.
   
-  bild: instserie
+  ![Seriemedlemskap](instserie.png)
 
  
 #### Anmarkning
 * Anmärkning (hasNote)/Anmärkning (Note)/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
   
-  bild: instanmarkning
+  ![Anmärkning](instanmarkning.png)
 
 #### Citering i referatorgan    
   Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Välj Duplicera entitet om om fler entiteter ska läggas in. Alternativ lösning är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 #a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 #c)
 
-bild:instcitering
+![Citering](instcitering.png)
 
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
@@ -300,7 +300,7 @@ Lägga in manuellt:
 * Sök efter och välj Stad, kommun i sidorutan.
 * Skriv in land och stad i respektive ruta.
 
-bild: instorter
+![Namn på orter](instorter.png)
   
 ##### Orter som har bytt namn och landtillhörighet    
 I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där inte behövde ange landtillhörighet, till skillnad från i fält 752. Det finns ingen motsvarighet till 751 i nya Libris. Jag föreslår därför att vi tills vidare anger orter som heter något annat nu i Tillverkning.    
@@ -312,26 +312,27 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
   
   Tryckare:
-  bild: verktryckare 
+  ![Tryckare](verktryckare.png) 
 
 #### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   
- bild: verksab
+ ![SAB](verksab)
   
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
   SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).
   
-  bild:verkquiding
+  ![Quiding](verkquiding.png)
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
   Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
   
   Text:
-  bild: verkinnehallstyp 
+  
+  ![Innehållstyp](verkinnehallstyp.png) 
   
 ### Bestand
 
@@ -344,11 +345,11 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   
   En proveniensuppgift:
   
-  bild: bestprov1
+  ![En proveniensuppgift](bestprov1.png)
   
   Två proveniensuppgifter:
   
-  bild: bestprov2 
+  ![Två proveniensuppgifter](bestprov2) 
   
 #### Exemplarinformation
 * Igenkänningstecken (562 #a) och Identifiering av exemplar (562 #b)  
@@ -361,7 +362,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Skriv in uppgifterna.<br/><br/>  
   Klicka på plustecknet till vänster om Har lokal anmärkning: Identifiering ... för fler anmärkningar.
   
-  bild: bestexemplar
+ ![Exemplarinformation](bestexemplar.png)
   
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 #a)   
@@ -373,4 +374,4 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Skriv in uppgiften i Benämning.  
   Klicka på plustecknet intill Benämning för fler anmärkningar.
   
-  bild: bestbokband
+  ![Bokband](bestbokband.png)
