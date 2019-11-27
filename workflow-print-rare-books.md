@@ -111,7 +111,7 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här.
   * Sök efter och välj Källa.
   * Välj Källa i Skapa lokal entitet.
   * Klicka på plustecknet till höger om Källa.
-  * Sök efter och välj Kod. Skriv in koden i Källa.
+  * Sök efter och välj Kod. Skriv in koden.
   
  ![Fingerprint](instfingerprint.png)  
   
