@@ -24,7 +24,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
-| [Generell hjälptext: Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext: Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext: Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext: Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding) | 
+| [Generell hjälptext](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext](https://libris.kb.se/katalogisering/help/workflow-holding) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
