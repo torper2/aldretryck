@@ -11,7 +11,9 @@ tags:
 
 ## Äldre tryck
 
+
 [Inledning](#inledning)
+
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
