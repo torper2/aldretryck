@@ -236,7 +236,7 @@ För orter som har bytt namn och ibland även landtillhörighet kan man tills vi
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (300 #b)
 
-![Övriga fysiska detaljer](instovrigafysiska.png) 
+ 
   
 
 #### Matt 
