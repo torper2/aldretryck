@@ -295,8 +295,8 @@ För orter som har bytt namn och ibland även landtillhörighet kan man tills vi
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
   Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är lite krångligt. Använd förslagsvis [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 #d)
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a)
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a) 
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 #d) 
 
 Lägga in manuellt:  
 * Klicka på det stora plustecknet i högermarginalen.
